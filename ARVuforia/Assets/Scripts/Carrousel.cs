@@ -46,4 +46,10 @@ public class Carrousel : MonoBehaviour
         models[selector].SetActive(true);
     }
 
+    public void Swipe(Vector2 delta) 
+    { 
+        Debug.LogWarning(delta); 
+    }
+
+
 }
